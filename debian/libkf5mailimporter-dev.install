@@ -1,0 +1,6 @@
+usr/include/KF5/MailImporter/
+usr/include/KF5/mailimporter/
+usr/include/KF5/mailimporter_version.h
+usr/lib/*/cmake/KF5MailImporter/
+usr/lib/*/libKF5MailImporter.so
+usr/lib/*/qt5/mkspecs/modules/qt_MailImporter.pri
