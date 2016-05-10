@@ -1,7 +1,14 @@
-libkf5mailimporter (4:16.04.0-1~1.gbpcbaf86) UNRELEASED; urgency=medium
+libkf5mailimporter (4:16.04.1-1~1.gbp79621e) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @79621e5fcef05ebbad80c360333b51737eb2981f **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
 
   * Initial release.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 11:41:17 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 21:05:16 +0200
