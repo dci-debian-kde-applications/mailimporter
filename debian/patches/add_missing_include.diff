@@ -1,3 +1,13 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Tue, 10 May 2016 21:05:13 +0200
+Subject: add_missing_include
+
+---
+ src/mailimporter_utils.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/mailimporter_utils.h b/src/mailimporter_utils.h
+index d6c7128..7ae311e 100644
 --- a/src/mailimporter_utils.h
 +++ b/src/mailimporter_utils.h
 @@ -18,6 +18,8 @@
