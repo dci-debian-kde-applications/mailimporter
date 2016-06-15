@@ -1,3 +1,11 @@
+libkf5mailimporter (4:16.04.2-1~1.gbp25f0b5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @25f0b53cc289b47494db31394f313d79b6934dec **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 03:05:26 +0200
+
 libkf5mailimporter (4:16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
