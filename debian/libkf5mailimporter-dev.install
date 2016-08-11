@@ -1,3 +1,4 @@
+etc/xdg/mailimporter.categories
 usr/include/KF5/MailImporter/
 usr/include/KF5/mailimporter/
 usr/include/KF5/mailimporter_version.h
