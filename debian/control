@@ -5,17 +5,18 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               libkf5akonadi-dev (>= 4:5.2.0~),
+               extra-cmake-modules (>= 5.23.0~),
+               libkf5akonadi-dev (>= 4:5.3.0~),
                libkf5akonadicontact-dev (>= 5.2.0~),
-               libkf5akonadimime-dev (>= 5.2.0~),
-               libkf5archive-dev (>= 5.19.0~),
-               libkf5config-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
-               libkf5libkdepim-dev (>= 5.2.1~),
-               libkf5mime-dev (>= 5.2.0~),
+               libkf5akonadimime-dev (>= 5.3.0~),
+               libkf5archive-dev (>= 5.23.0~),
+               libkf5config-dev (>= 5.23.0~),
+               libkf5coreaddons-dev (>= 5.23.0~),
+               libkf5i18n-dev (>= 5.23.0~),
+               libkf5libkdepim-dev (>= 5.3.0~),
+               libkf5mime-dev (>= 5.3.0~),
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.4.0~),
+               qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/
@@ -35,11 +36,11 @@ Package: libkf5mailimporter-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadi-dev (>= 4:5.2.0~),
-         libkf5akonadimime-dev (>= 5.2.0~),
+Depends: libkf5akonadi-dev (>= 4:5.3.0~),
+         libkf5akonadimime-dev (>= 5.3.0~),
          libkf5mailimporter5 (= ${binary:Version}),
-         libkf5mime-dev (>= 5.2.0~),
-         qtbase5-dev (>= 5.4.0~),
+         libkf5mime-dev (>= 5.3.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM Mail importer library, devel files
