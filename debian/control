@@ -31,6 +31,15 @@ Description: KDE PIM Mail importer library
  .
  This package is part of the KDE PIM module.
 
+Package: libkf5mailimporterakonadi5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE PIM Mail importer Akonadi library
+ This package contains a library for importing mails into Akonadi applications.
+ .
+ This package is part of the KDE PIM module.
+
 Package: libkf5mailimporter-dev
 Section: libdevel
 Architecture: any
@@ -38,6 +47,7 @@ Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5akonadimime-dev (>= 5.2.0~),
          libkf5mailimporter5 (= ${binary:Version}),
+         libkf5mailimporterakonadi5 (= ${binary:Version}),
          libkf5mime-dev (>= 5.2.0~),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
