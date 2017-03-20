@@ -1,5 +1,5 @@
-etc/xdg/mailimporter.renamecategories
 etc/xdg/mailimporter.categories
+etc/xdg/mailimporter.renamecategories
 usr/include/KF5/MailImporter/
 usr/include/KF5/mailimporter/
 usr/include/KF5/mailimporter_version.h
