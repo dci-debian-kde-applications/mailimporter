@@ -26,6 +26,8 @@ Package: libkf5mailimporter5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: KDE PIM Mail importer library
  This package contains a library for importing mails into KDE applications.
  .
