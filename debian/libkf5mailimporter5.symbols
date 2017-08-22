@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter10FilterInfo10setCurrentERK7QString@Base 4:15.12
  _ZN12MailImporter10FilterInfo10setCurrentEi@Base 4:15.12
@@ -8,12 +8,10 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter10FilterInfo16addErrorLogEntryERK7QString@Base 4:15.12
  _ZN12MailImporter10FilterInfo16setFilterInfoGuiEPNS_13FilterInfoGuiE@Base 4:15.12
  _ZN12MailImporter10FilterInfo16setStatusMessageERK7QString@Base 4:15.12
- _ZN12MailImporter10FilterInfo17setRootCollectionERKN7Akonadi10CollectionE@Base 4:15.12
  _ZN12MailImporter10FilterInfo19setRemoveDupMessageEb@Base 4:15.12
  _ZN12MailImporter10FilterInfo5alertERK7QString@Base 4:15.12
  _ZN12MailImporter10FilterInfo5clearEv@Base 4:15.12
  _ZN12MailImporter10FilterInfo5setToERK7QString@Base 4:15.12
- _ZN12MailImporter10FilterInfo6parentEv@Base 4:15.12
  _ZN12MailImporter10FilterInfo7setFromERK7QString@Base 4:15.12
  _ZN12MailImporter10FilterInfoC1Ev@Base 4:15.12
  _ZN12MailImporter10FilterInfoC2Ev@Base 4:15.12
@@ -62,6 +60,7 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter11FilterPMailD0Ev@Base 4:15.12
  _ZN12MailImporter11FilterPMailD1Ev@Base 4:15.12
  _ZN12MailImporter11FilterPMailD2Ev@Base 4:15.12
+ _ZN12MailImporter11FilterPlain11importMailsERK7QString@Base 4:17.08.0
  _ZN12MailImporter11FilterPlain6importEv@Base 4:15.12
  _ZN12MailImporter11FilterPlainC1Ev@Base 4:15.12
  _ZN12MailImporter11FilterPlainC2Ev@Base 4:15.12
@@ -115,6 +114,14 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter13FilterMailAppD0Ev@Base 4:15.12
  _ZN12MailImporter13FilterMailAppD1Ev@Base 4:15.12
  _ZN12MailImporter13FilterMailAppD2Ev@Base 4:15.12
+ _ZN12MailImporter13MessageStatus10setDeletedEb@Base 4:17.08.0
+ _ZN12MailImporter13MessageStatus10setRepliedEb@Base 4:17.08.0
+ _ZN12MailImporter13MessageStatus12setForwardedEb@Base 4:17.08.0
+ _ZN12MailImporter13MessageStatus7setReadEb@Base 4:17.08.0
+ _ZN12MailImporter13MessageStatusC1Ev@Base 4:17.08.0
+ _ZN12MailImporter13MessageStatusC2Ev@Base 4:17.08.0
+ _ZN12MailImporter13MessageStatusD1Ev@Base 4:17.08.0
+ _ZN12MailImporter13MessageStatusD2Ev@Base 4:17.08.0
  _ZN12MailImporter14FilterSylpheed11excludeFileERK7QString@Base 4:15.12
  _ZN12MailImporter14FilterSylpheed11importFilesERK7QString@Base 4:15.12
  _ZN12MailImporter14FilterSylpheed11importMailsERK7QString@Base 4:15.12
@@ -148,6 +155,14 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter15FilterEvolutionD0Ev@Base 4:15.12
  _ZN12MailImporter15FilterEvolutionD1Ev@Base 4:15.12
  _ZN12MailImporter15FilterEvolutionD2Ev@Base 4:15.12
+ _ZN12MailImporter15FilterSeaMonkey12settingsPathEv@Base 4:17.08.0
+ _ZN12MailImporter15FilterSeaMonkey19defaultSettingsPathEv@Base 4:17.08.0
+ _ZN12MailImporter15FilterSeaMonkeyC1Ev@Base 4:17.08.0
+ _ZN12MailImporter15FilterSeaMonkeyC2Ev@Base 4:17.08.0
+ _ZN12MailImporter15FilterSeaMonkeyD0Ev@Base 4:17.08.0
+ _ZN12MailImporter15FilterSeaMonkeyD1Ev@Base 4:17.08.0
+ _ZN12MailImporter15FilterSeaMonkeyD2Ev@Base 4:17.08.0
+ _ZN12MailImporter15OtherMailerUtil16gearyDefaultPathEv@Base 4:17.08.0
  _ZN12MailImporter15OtherMailerUtil18trojitaDefaultPathEv@Base 4:15.12
  _ZN12MailImporter17FilterMailmanGzip11importMailsERK11QStringList@Base 4:15.12
  _ZN12MailImporter17FilterMailmanGzip6importEv@Base 4:15.12
@@ -212,6 +227,15 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter18FilterEvolution_v3D0Ev@Base 4:15.12
  _ZN12MailImporter18FilterEvolution_v3D1Ev@Base 4:15.12
  _ZN12MailImporter18FilterEvolution_v3D2Ev@Base 4:15.12
+ _ZN12MailImporter18FilterImporterBase13importMessageEPK12KArchiveFileRK7QStringRiS7_@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBase13importMessageERK7QStringS3_bRKNS_13MessageStatusE@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBase19clearCountDuplicateEv@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBase5clearEv@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBaseC1EPNS_10FilterInfoE@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBaseC2EPNS_10FilterInfoE@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBaseD0Ev@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBaseD1Ev@Base 4:17.08.0
+ _ZN12MailImporter18FilterImporterBaseD2Ev@Base 4:17.08.0
  _ZN12MailImporter18FilterKMailArchive11importMailsERK7QString@Base 4:15.12
  _ZN12MailImporter18FilterKMailArchive12importFolderEPK17KArchiveDirectoryRK7QString@Base 4:15.12
  _ZN12MailImporter18FilterKMailArchive13importMessageEPK12KArchiveFileRK7QString@Base 4:15.12
@@ -232,18 +256,30 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter19FilterKMail_maildirD0Ev@Base 4:15.12
  _ZN12MailImporter19FilterKMail_maildirD1Ev@Base 4:15.12
  _ZN12MailImporter19FilterKMail_maildirD2Ev@Base 4:15.12
- _ZN12MailImporter6Filter10addMessageERK7QStringS3_N7Akonadi13MessageStatusE@Base 4:15.12
- _ZN12MailImporter6Filter10filterInfoEv@Base 4:15.12
+ _ZN12MailImporter30SelectThunderbirdProfileDialog11fillProfileERK4QMapI7QStringS2_ERKS2_@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialog11qt_metacastEPKc@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialog16staticMetaObjectE@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialogC1EP7QWidget@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialogC2EP7QWidget@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialogD0Ev@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialogD1Ev@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileDialogD2Ev@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidget11fillProfileERK4QMapI7QStringS2_ERKS2_@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidget11qt_metacastEPKc@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidget16staticMetaObjectE@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidgetC1EP7QWidget@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidgetC2EP7QWidget@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidgetD0Ev@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidgetD1Ev@Base 4:17.08.0
+ _ZN12MailImporter30SelectThunderbirdProfileWidgetD2Ev@Base 4:17.08.0
  _ZN12MailImporter6Filter10setMailDirERK7QString@Base 4:15.12
- _ZN12MailImporter6Filter12doAddMessageERK7QStringS3_bN7Akonadi13MessageStatusE@Base 4:15.12
+ _ZN12MailImporter6Filter13importMessageERK7QStringS3_bNS_13MessageStatusE@Base 4:17.08.0
  _ZN12MailImporter6Filter13setFilterInfoEPNS_10FilterInfoE@Base 4:15.12
  _ZN12MailImporter6Filter14countDirectoryERK4QDirb@Base 4:15.12
- _ZN12MailImporter6Filter16addSubCollectionERKN7Akonadi10CollectionERK7QString@Base 4:15.12
- _ZN12MailImporter6Filter17addAkonadiMessageERKN7Akonadi10CollectionERK14QSharedPointerIN5KMime7MessageEENS1_13MessageStatusE@Base 4:15.12
- _ZN12MailImporter6Filter17parseFolderStringERK7QString@Base 4:15.12
- _ZN12MailImporter6Filter18checkForDuplicatesERK7QStringRKN7Akonadi10CollectionES3_@Base 4:15.12
- _ZN12MailImporter6Filter18setCountDuplicatesEi@Base 4:15.12
- _ZN12MailImporter6Filter21addMessage_fastImportERK7QStringS3_N7Akonadi13MessageStatusE@Base 4:15.12
+ _ZN12MailImporter6Filter17setFilterImporterEPNS_18FilterImporterBaseE@Base 4:17.08.0
+ _ZN12MailImporter6Filter19clearCountDuplicateEv@Base 4:17.08.0
  _ZN12MailImporter6Filter5clearEv@Base 4:15.12
  _ZN12MailImporter6Filter7setInfoERK7QString@Base 4:15.12
  _ZN12MailImporter6Filter7setNameERK7QString@Base 4:15.12
@@ -259,7 +295,7 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter8FilterOE13getFolderNameERK7QString@Base 4:15.12
  _ZN12MailImporter8FilterOE13importMailBoxERK7QString@Base 4:15.12
  _ZN12MailImporter8FilterOE16dbxReadDataBlockER11QDataStreami@Base 4:15.12
- _ZN12MailImporter8FilterOE17parseFolderStringER11QDataStreami@Base 4:15.12
+ _ZN12MailImporter8FilterOE19parseFolderOEStringER11QDataStreami@Base 4:17.08.0
  _ZN12MailImporter8FilterOE6importEv@Base 4:15.12
  _ZN12MailImporter8FilterOE9dbxImportER11QDataStream@Base 4:15.12
  _ZN12MailImporter8FilterOE9mbxImportER11QDataStream@Base 4:15.12
@@ -268,26 +304,36 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZN12MailImporter8FilterOED0Ev@Base 4:15.12
  _ZN12MailImporter8FilterOED1Ev@Base 4:15.12
  _ZN12MailImporter8FilterOED2Ev@Base 4:15.12
- (optional=templinst)_ZN7Akonadi4Item14setPayloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS9_@Base 4:15.12
- _ZNK12MailImporter10FilterInfo14rootCollectionEv@Base 4:15.12
+ _ZNK12MailImporter10FilterInfo12parentWidgetEv@Base 4:17.08.0
  _ZNK12MailImporter10FilterInfo15shouldTerminateEv@Base 4:15.12
  _ZNK12MailImporter10FilterInfo16removeDupMessageEv@Base 4:15.12
  _ZNK12MailImporter13FilterIcedove20defaultInstallFolderEv@Base 4:15.12
  _ZNK12MailImporter13FilterInfoGui6parentEv@Base 4:15.12
+ _ZNK12MailImporter13MessageStatus11isForwardedEv@Base 4:17.08.0
+ _ZNK12MailImporter13MessageStatus6isReadEv@Base 4:17.08.0
+ _ZNK12MailImporter13MessageStatus9isDeletedEv@Base 4:17.08.0
+ _ZNK12MailImporter13MessageStatus9isRepliedEv@Base 4:17.08.0
  _ZNK12MailImporter14FilterSylpheed20defaultInstallFolderEv@Base 4:15.12
  _ZNK12MailImporter14FilterSylpheed8markFileEv@Base 4:15.12
  _ZNK12MailImporter15FilterClawsMail20defaultInstallFolderEv@Base 4:15.12
  _ZNK12MailImporter15FilterClawsMail8markFileEv@Base 4:15.12
+ _ZNK12MailImporter15FilterSeaMonkey20defaultInstallFolderEv@Base 4:17.08.0
  _ZNK12MailImporter17FilterThunderbird20defaultInstallFolderEv@Base 4:15.12
  _ZNK12MailImporter17ImportMailsWidget10metaObjectEv@Base 4:15.12
+ _ZNK12MailImporter18FilterImporterBase14topLevelFolderEv@Base 4:17.08.0
+ _ZNK12MailImporter18FilterImporterBase15countDuplicatesEv@Base 4:17.08.0
  _ZNK12MailImporter18FilterKMailArchive10countFilesEPK17KArchiveDirectory@Base 4:15.12
+ _ZNK12MailImporter30SelectThunderbirdProfileDialog10metaObjectEv@Base 4:17.08.0
+ _ZNK12MailImporter30SelectThunderbirdProfileDialog15selectedProfileEv@Base 4:17.08.0
+ _ZNK12MailImporter30SelectThunderbirdProfileWidget10metaObjectEv@Base 4:17.08.0
+ _ZNK12MailImporter30SelectThunderbirdProfileWidget15selectedProfileEv@Base 4:17.08.0
+ _ZNK12MailImporter6Filter10filterInfoEv@Base 4:17.08.0
+ _ZNK12MailImporter6Filter14filterImporterEv@Base 4:17.08.0
  _ZNK12MailImporter6Filter15countDuplicatesEv@Base 4:15.12
  _ZNK12MailImporter6Filter4infoEv@Base 4:15.12
  _ZNK12MailImporter6Filter4nameEv@Base 4:15.12
  _ZNK12MailImporter6Filter6authorEv@Base 4:15.12
  _ZNK12MailImporter6Filter7mailDirEv@Base 4:15.12
- (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12
- (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.12
  _ZTIN12MailImporter10FilterMBoxE@Base 4:15.12
  _ZTIN12MailImporter11FilterBalsaE@Base 4:15.12
  _ZTIN12MailImporter11FilterOperaE@Base 4:15.12
@@ -301,13 +347,17 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZTIN12MailImporter14FilterSylpheedE@Base 4:15.12
  _ZTIN12MailImporter15FilterClawsMailE@Base 4:15.12
  _ZTIN12MailImporter15FilterEvolutionE@Base 4:15.12
+ _ZTIN12MailImporter15FilterSeaMonkeyE@Base 4:17.08.0
  _ZTIN12MailImporter17FilterMailmanGzipE@Base 4:15.12
  _ZTIN12MailImporter17FilterThunderbirdE@Base 4:15.12
  _ZTIN12MailImporter17ImportMailsWidgetE@Base 4:15.12
  _ZTIN12MailImporter18FilterEvolution_v2E@Base 4:15.12
  _ZTIN12MailImporter18FilterEvolution_v3E@Base 4:15.12
+ _ZTIN12MailImporter18FilterImporterBaseE@Base 4:17.08.0
  _ZTIN12MailImporter18FilterKMailArchiveE@Base 4:15.12
  _ZTIN12MailImporter19FilterKMail_maildirE@Base 4:15.12
+ _ZTIN12MailImporter30SelectThunderbirdProfileDialogE@Base 4:17.08.0
+ _ZTIN12MailImporter30SelectThunderbirdProfileWidgetE@Base 4:17.08.0
  _ZTIN12MailImporter6FilterE@Base 4:15.12
  _ZTIN12MailImporter8FilterOEE@Base 4:15.12
  _ZTSN12MailImporter10FilterMBoxE@Base 4:15.12
@@ -323,13 +373,17 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZTSN12MailImporter14FilterSylpheedE@Base 4:15.12
  _ZTSN12MailImporter15FilterClawsMailE@Base 4:15.12
  _ZTSN12MailImporter15FilterEvolutionE@Base 4:15.12
+ _ZTSN12MailImporter15FilterSeaMonkeyE@Base 4:17.08.0
  _ZTSN12MailImporter17FilterMailmanGzipE@Base 4:15.12
  _ZTSN12MailImporter17FilterThunderbirdE@Base 4:15.12
  _ZTSN12MailImporter17ImportMailsWidgetE@Base 4:15.12
  _ZTSN12MailImporter18FilterEvolution_v2E@Base 4:15.12
  _ZTSN12MailImporter18FilterEvolution_v3E@Base 4:15.12
+ _ZTSN12MailImporter18FilterImporterBaseE@Base 4:17.08.0
  _ZTSN12MailImporter18FilterKMailArchiveE@Base 4:15.12
  _ZTSN12MailImporter19FilterKMail_maildirE@Base 4:15.12
+ _ZTSN12MailImporter30SelectThunderbirdProfileDialogE@Base 4:17.08.0
+ _ZTSN12MailImporter30SelectThunderbirdProfileWidgetE@Base 4:17.08.0
  _ZTSN12MailImporter6FilterE@Base 4:15.12
  _ZTSN12MailImporter8FilterOEE@Base 4:15.12
  _ZTVN12MailImporter10FilterMBoxE@Base 4:15.12
@@ -345,13 +399,19 @@ libKF5MailImporter.so.5 libkf5mailimporter5 #MINVER#
  _ZTVN12MailImporter14FilterSylpheedE@Base 4:15.12
  _ZTVN12MailImporter15FilterClawsMailE@Base 4:15.12
  _ZTVN12MailImporter15FilterEvolutionE@Base 4:15.12
+ _ZTVN12MailImporter15FilterSeaMonkeyE@Base 4:17.08.0
  _ZTVN12MailImporter17FilterMailmanGzipE@Base 4:15.12
  _ZTVN12MailImporter17FilterThunderbirdE@Base 4:15.12
  _ZTVN12MailImporter17ImportMailsWidgetE@Base 4:15.12
  _ZTVN12MailImporter18FilterEvolution_v2E@Base 4:15.12
  _ZTVN12MailImporter18FilterEvolution_v3E@Base 4:15.12
+ _ZTVN12MailImporter18FilterImporterBaseE@Base 4:17.08.0
  _ZTVN12MailImporter18FilterKMailArchiveE@Base 4:15.12
  _ZTVN12MailImporter19FilterKMail_maildirE@Base 4:15.12
+ _ZTVN12MailImporter30SelectThunderbirdProfileDialogE@Base 4:17.08.0
+ _ZTVN12MailImporter30SelectThunderbirdProfileWidgetE@Base 4:17.08.0
  _ZTVN12MailImporter6FilterE@Base 4:15.12
  _ZTVN12MailImporter8FilterOEE@Base 4:15.12
  (c++)"non-virtual thunk to MailImporter::ImportMailsWidget::~ImportMailsWidget()@Base" 4:15.12
+ (c++)"non-virtual thunk to MailImporter::SelectThunderbirdProfileDialog::~SelectThunderbirdProfileDialog()@Base" 4:17.08.0
+ (c++)"non-virtual thunk to MailImporter::SelectThunderbirdProfileWidget::~SelectThunderbirdProfileWidget()@Base" 4:17.08.0
