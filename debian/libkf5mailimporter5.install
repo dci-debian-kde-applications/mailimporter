@@ -1,2 +1,3 @@
 usr/lib/*/libKF5MailImporter.so.5
 usr/lib/*/libKF5MailImporter.so.5.*
+usr/share/locale/

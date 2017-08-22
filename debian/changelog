@@ -1,3 +1,69 @@
+libkf5mailimporter (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:44:52 +0000
+
+libkf5mailimporter (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:25:49 +0000
+
+libkf5mailimporter (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:24:48 +0000
+
+libkf5mailimporter (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:26:26 +0000
+
+libkf5mailimporter (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 20 Apr 2017 09:29:57 +0000
+
+libkf5mailimporter (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:51:22 +0000
+
+libkf5mailimporter (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:04:16 +0000
+
+libkf5mailimporter (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:26:01 +0000
+
+libkf5mailimporter (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:33:16 +0000
+
+libkf5mailimporter (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:54:56 +0000
+
+libkf5mailimporter (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:42:02 +0000
+
 libkf5mailimporter (4:16.08.1-1~1.gbp0b2fce) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @0b2fce24427fdf372bc906dd5e4916a3e656d49f **
@@ -12,6 +78,24 @@ libkf5mailimporter (4:16.08.1-1~1.gbp0b2fce) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 14:15:16 +0200
+
+libkf5mailimporter (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:08:33 +0000
+
+libkf5mailimporter (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:50:36 +0000
+
+libkf5mailimporter (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:51:43 +0000
 
 libkf5mailimporter (4:16.04.2-2) unstable; urgency=medium
 
