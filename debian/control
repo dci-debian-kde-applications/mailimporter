@@ -7,7 +7,6 @@ Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.35.0~),
                libkf5akonadi-dev (>= 4:17.08.3~),
-               libkf5akonadicontact-dev (>= 17.08~),
                libkf5akonadimime-dev (>= 4:17.08.3~),
                libkf5archive-dev (>= 5.35.0~),
                libkf5config-dev (>= 5.35.0~),
@@ -17,7 +16,6 @@ Build-Depends: cmake (>= 3.0~),
                libkf5mime-dev (>= 17.08.3~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.7.0~),
-               qttools5-dev (>= 5.4.0~),
 Standards-Version: 4.1.2
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/mailimporter.git
